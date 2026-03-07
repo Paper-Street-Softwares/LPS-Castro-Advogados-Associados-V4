@@ -1,7 +1,7 @@
 import React from "react";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import { Clock, Gavel, ShieldCheck } from "lucide-react";
+import { Check, Clock, Gavel, ShieldCheck } from "lucide-react";
 import SectionHeaderNovo from "../sectionElements/SectionHeaderNovo";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
@@ -33,8 +33,8 @@ function Speed({ colorMode }) {
       <SectionWrapper>
         <section className="">
           <SectionHeaderNovo
-            miniTitle="Rapidez e Praticidade"
-            title="Dependendo do caso, o divórcio pode ser resolvido:"
+            miniTitle="O DIVÓRCIO PODE SER DESGASTANTE"
+            title="Evite mais brigas, dúvidas e estresse no seu divórcio"
             colorMode={colorMode}
           />
           <MotionDivDownToUp>
@@ -45,13 +45,16 @@ function Speed({ colorMode }) {
               <div className="grid md:grid-cols-3 gap-8">
                 {[
                   {
-                    text: "Em poucos dias, conforme o tipo de divórcio",
-                    icon: Clock,
+                    text: "Evite decisões precipitadas que podem prejudicar seus direitos",
+                    icon: Check,
                   },
-                  { text: "Sem audiência, na maioria dos casos", icon: Gavel },
                   {
-                    text: "Sem necessidade de comparecimento presencial",
-                    icon: ShieldCheck,
+                    text: "Reduza o desgaste emocional e conflitos com seu ex-cônjuge",
+                    icon: Check,
+                  },
+                  {
+                    text: "Garanta que guarda, visitas e pensão sejam resolvidas de forma justa",
+                    icon: Check,
                   },
                 ].map((item, idx) => (
                   <MotionDivDownToUp>
@@ -76,7 +79,8 @@ function Speed({ colorMode }) {
                 <p
                   className={`text-title2 font-medium font-secondFont inline-block px-4 py-1.5 rounded-full text-black/70`}
                 >
-                  Tudo conforme a lei.
+                  Conte com orientação jurídica especializada para atravessar
+                  esse momento difícil com mais segurança e tranquilidade.
                 </p>
               </div>
             </div>

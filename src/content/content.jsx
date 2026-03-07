@@ -122,43 +122,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "DIVÓRCIO SEM COMPLICAÇÃO",
-      FirstPart: <span></span>,
+      miniTag: "ADVOGADA ESPECIALISTA EM DIVÓRCIO",
+      FirstPart: <span>Cansado(a) dos </span>,
       Destaque: (
-        <span className="relative italic font-light destaque">
-          DIVÓRCIO ONLINE{" "}
-          {/* <span>
-            <svg
-              className="absolute left-0 hidden w-full h-3 text-black hero-underline -bottom-2 desktop1:flex"
-              viewBox="0 0 100 10"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M0 5 Q 50 10 100 5"
-                stroke="currentColor"
-                strokeWidth="2"
-                fill="none"
-              />
-            </svg>
-            <svg
-              className="absolute left-0 w-full h-3 text-black hero-underline -bottom-2 desktop1:hidden"
-              viewBox="0 0 100 10"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M0 5 Q 50 10 100 5"
-                stroke="currentColor"
-                strokeWidth="2"
-                fill="none"
-            </svg>
-          </span> */}
-        </span>
+        <span className="relative italic font-light destaque">conflitos</span>
       ),
-      SecondPart: <span>— RÁPIDO, SEGURO E SEM SAIR DE CASA</span>,
+      SecondPart: <span>no casamento?</span>,
       subtitle: (
         <p>
-          Orientação jurídica especializada para resolver seu divórcio de forma
-          clara, organizada e sem desgaste emocional.
+          Receba orientação de advogada especialista para conduzir seu divórcio
+          com segurança e evitar decisões precipitadas.
         </p>
       ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
@@ -167,7 +140,7 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "Falar Com Advogada Agora",
+      ctaButtonText: "Quero falar com a Advogada agora",
       ctaButtonTextSecondary: "A_Definir",
       obsHero: {
         icon: <LucideIdCard />,
@@ -196,36 +169,41 @@ const content = {
       },
     },
     important: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "ATENÇÃO",
+      title: "O que você precisa sobre divórcio online",
       cards: {
         card1: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: "Preciso mesmo de advogado para não cometer erros?",
+          paragraph:
+            "Sim. Sem orientação jurídica, é fácil tomar decisões precipitadas, fazer acordos injustos ou perder direitos importantes sobre bens, guarda e pensão. Um advogado garante que tudo seja feito corretamente, evitando conflitos e desgastes desnecessários.",
         },
         card2: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: "Quanto tempo esse processo vai me consumir?",
+          paragraph:
+            "O divórcio pode ser rápido quando há acordo, mas em casos de conflito ou disputas sobre filhos e bens, o desgaste emocional pode se prolongar. Ter orientação jurídica ajuda a encurtar o processo e reduzir ansiedade e estresse.",
         },
         card3: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: "E se meu ex não colaborar ou se recusar a fazer acordo?",
+          paragraph:
+            "Mesmo quando há resistência, o divórcio pode ser iniciado judicialmente. Um advogado especialista garante que seus direitos sejam protegidos, evitando que você fique perdido em decisões judiciais ou em discussões desgastantes.",
         },
         card4: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title:
+            "Como uma advogada pode me ajudar a não sofrer mais durante o divórcio?",
+          paragraph:
+            "Ela orienta cada passo, analisa seus direitos e conduz o processo de forma segura, protegendo você de decisões precipitadas, acordos injustos e desgaste emocional. Assim, você pode atravessar esse momento difícil com mais tranquilidade.",
         },
       },
-      fraseObs: "A_Definir",
-      ctaButtonText: "A_Definir",
+      fraseObs: "Entre em contato conosco e daremos todo o suporte necessário",
+      ctaButtonText: "Falar conosco agora pelo WhatsApp",
     },
     features: {
-      miniTag: "Seu divórcio não precisa ser complicado",
-      FirstPart: <span>Sabemos que o momento do divórcio </span>,
-      Destaque: <span className="italic font-light"> é delicado</span>,
-      SecondPart: <span> e, muitas vezes, doloroso.</span>,
+      miniTag: "Divórcio sem dor e sem incertezas",
+      FirstPart: <span>Conte com apoio </span>,
+      Destaque: <span className="italic font-light"> jurídico</span>,
+      SecondPart: <span> especializado</span>,
       subtitle:
-        "Por isso, oferecemos um atendimento humanizado, rápido e totalmente online, para que você resolva tudo com tranquilidade e sem burocracia. Você não precisa enfrentar filas, deslocamentos ou desgaste emocional. Nós cuidamos de tudo para você.",
+        "O divórcio é um momento delicado e desgastante. Conte com orientação jurídica clara e humanizada para conduzir o processo com segurança, evitando conflitos e decisões precipitadas.",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
       titleMessageFeature: "100%",
@@ -503,13 +481,14 @@ const content = {
       ctaButtonText: "A_Definir",
     },
     ctaSecondary: {
-      miniTag: "FALE CONOSCO",
-      title: <h1>Fale agora com uma Advogada</h1>,
+      miniTag: "CHEGA DE SOFRIMENTO NO DIVÓRCIO",
+      title: <h1>Fale agora com uma Advogada que entende sua dor</h1>,
       subtitle: (
         <div>
           <p className="mb-6 font-secondFont">
-            Se você está pensando em se divorciar ou precisa de orientação, fale
-            conosco agora.
+            Se você está cansado de brigas, insegurança e medo de perder
+            direitos, fale conosco agora. Conte com orientação especializada
+            para proteger você e seus filhos.
           </p>
         </div>
       ),
@@ -520,35 +499,43 @@ const content = {
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Análise gratuita do seu caso
+ Análise do seu caso para evitar decisões precipitadas
+
+
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Atendimento direto com o Advogado, sem intermediários
+Atendimento direto com a Advogada, sem intermediários
+
+
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Resposta rápida e acompanhamento pelo WhatsApp
+Resposta rápida para reduzir ansiedade e incerteza
+
+
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Processo iniciado no mesmo dia da análise
+Processo conduzido com segurança desde o primeiro dia
+
+
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Você mais perto de receber o que é seu, sem sair de casa
+Proteja seus direitos e diminua o desgaste emocional
           </div>
         </div>
       ),
