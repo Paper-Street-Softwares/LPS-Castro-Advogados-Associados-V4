@@ -130,8 +130,9 @@ const content = {
       SecondPart: <span>no casamento?</span>,
       subtitle: (
         <p>
-          Receba orientação de advogada especialista para conduzir seu divórcio
-          com segurança e evitar decisões precipitadas.
+          Quando o casamento vira uma sequência de brigas, silêncio e dúvidas,
+          tomar decisões no impulso pode piorar tudo. Receba orientação jurídica
+          para passar por esse momento com segurança.
         </p>
       ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
@@ -499,43 +500,35 @@ const content = {
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
- Análise do seu caso para evitar decisões precipitadas
-
-
+            Análise do seu caso para evitar decisões precipitadas
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-Atendimento direto com a Advogada, sem intermediários
-
-
+            Atendimento direto com a Advogada, sem intermediários
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-Resposta rápida para reduzir ansiedade e incerteza
-
-
+            Resposta rápida para reduzir ansiedade e incerteza
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-Processo conduzido com segurança desde o primeiro dia
-
-
+            Processo conduzido com segurança desde o primeiro dia
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-Proteja seus direitos e diminua o desgaste emocional
+            Proteja seus direitos e diminua o desgaste emocional
           </div>
         </div>
       ),
