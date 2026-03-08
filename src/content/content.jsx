@@ -149,7 +149,7 @@ const content = {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
         text: "Foco em fazer o melhor acordo para você não sair perdendo.",
-        textTwo: "Processo conduzido para ser rápido e evitar conflitos.",
+        textTwo: "Processo 100% Online, sem burocracias desnecessárias.",
       },
       secondaryCta: "Contato",
       images: {
