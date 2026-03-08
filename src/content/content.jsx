@@ -129,7 +129,7 @@ const content = {
           Dê entrada no seu divórcio{" "}
         </span>
       ),
-      SecondPart: <span>agora mesmo</span>,
+      SecondPart: <span>e volte a ter paz</span>,
       subtitle: (
         <p>
           Pare de viver preso a um casamento que já acabou e resolva seu
@@ -148,8 +148,8 @@ const content = {
       obsHero: {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
-        text: "Dê entrada mesmo que seu ex não esteja de acordo",
-        textTwo: "Totalmente Online e sem burocracia desnecessárias",
+        text: "Foco em fazer o melhor acordo para você não sair perdendo.",
+        textTwo: "Processo conduzido para ser rápido e evitar conflitos.",
       },
       secondaryCta: "Contato",
       images: {
