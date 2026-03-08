@@ -122,7 +122,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADOS PARA ENTRAR COM DIVÓRCIO",
+      miniTag: "ADVOGADAS PARA ENTRAR COM DIVÓRCIO",
       FirstPart: <span>Chega de adiar: </span>,
       Destaque: (
         <span className="relative italic font-light destaque">
