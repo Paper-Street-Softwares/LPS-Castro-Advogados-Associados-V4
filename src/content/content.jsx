@@ -122,17 +122,19 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA ESPECIALISTA EM DIVÓRCIO",
-      FirstPart: <span>Cansado(a) dos </span>,
+      miniTag: "ADVOGADOS PARA ENTRAR COM DIVÓRCIO",
+      FirstPart: <span>Chega de adiar: </span>,
       Destaque: (
-        <span className="relative italic font-light destaque">conflitos</span>
+        <span className="relative italic font-light destaque">
+          Dê entrada no seu divórcio{" "}
+        </span>
       ),
-      SecondPart: <span>no casamento?</span>,
+      SecondPart: <span>agora mesmo</span>,
       subtitle: (
         <p>
-          Quando o casamento vira uma sequência de brigas, silêncio e dúvidas,
-          tomar decisões no impulso pode piorar tudo. Receba orientação jurídica
-          para passar por esse momento com segurança.
+          Pare de viver preso a um casamento que já acabou e resolva seu
+          divórcio com o auxílio de uma Advogada que focará em fazer tudo de
+          forma rápida e sem conflitos.
         </p>
       ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
@@ -146,8 +148,8 @@ const content = {
       obsHero: {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
-        text: "Atendimento 100% online e sigiloso",
-        textTwo: "Com orientação de advocacia especializada",
+        text: "Dê entrada mesmo que seu ex não esteja de acordo",
+        textTwo: "Totalmente Online e sem burocracia desnecessárias",
       },
       secondaryCta: "Contato",
       images: {
